@@ -1,0 +1,233 @@
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+:root {
+  --location-font-family: "Playfair Display", serif;
+}
+body,
+html {
+  box-sizing: border-box;
+  background-color: white;
+}
+/*
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fef6f6;
+}*/
+
+.container-fluid {
+  background-color: #fcf7f7;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+}
+#navbarNav {
+  margin-top: 23px;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+nav .nav-link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  padding: 0 20px 20px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background: orangered;
+  transition: 0.5s ease;
+}
+.nav-link::after {
+  left: 0;
+  bottom: 6px;
+}
+.nav-link::before {
+  right: 0;
+  top: -6px;
+}
+
+.nav-link:hover:before,
+.nav-link:hover:after {
+  width: 100%;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.homepage-hey {
+  font-family: "Poppins", sans-serif;
+}
+#homepage-head {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#homepage-location {
+  font-family: var(--location-font-family);
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 50px;
+}
+#homepage-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #ceb6d8;
+  width: 225px;
+  height: 72px;
+  border-radius: 15px;
+  color: #fffcfc;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  border: none;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#homepage-btn:hover {
+  background-color: #ceb6d8;
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
+}
+
+/* css for about page */
+
+#aboutpage-head {
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  font-weight: 700;
+}
+#aboutpage-location {
+  font-family: var(--location-font-family);
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 9px;
+  margin-bottom: 50px;
+}
+#aboutpage-intro {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+#aboutpage-btn {
+  display: block;
+  background-color: #ceb6d8;
+  margin-top: 100px;
+  width: 225px;
+  height: 72px;
+  border-radius: 15px;
+  color: #fffcfc;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  border: none;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#aboutpage-btn:hover {
+  background-color: #ceb6d8;
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
+}
+
+div .aboutpage-content {
+  padding: 100px;
+  margin: 20px;
+}
+div.about-wrapper {
+  background-color: #fef6f6;
+}
+/*
+.icons {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+*/
+.button {
+  text-decoration: none;
+}
+#inquiry-section {
+  justify-content: space-evenly;
+  background-color: #fcf3fc;
+  margin-top: 10px;
+  padding: 20px;
+}
+#work-inquiry {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.about-container {
+  display: flex;
+}
+/*#inquiry {
+  margin-top: 50px;
+}*/
+
+#reach-me-btn {
+  display: block;
+  background-color: #ceb6d8;
+  width: 225px;
+  height: 72px;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #fffcfc;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  border: none;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#reach-me-btn:hover {
+  background-color: #ceb6d8;
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
+}
+
+.socials {
+  text-align: center;
+  text-decoration: none;
+  background-color: #fef6f6;
+}
+#email {
+  text-decoration: none;
+  color: black;
+}
+#email:hover {
+  opacity: 0.8;
+}
