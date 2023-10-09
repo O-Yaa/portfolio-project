@@ -263,3 +263,47 @@ div.about-wrapper {
   transform: scale(1.05);
   box-shadow: 0 15px 15px #21092b;
 }
+
+/*portfolio css*/
+#portfolio-head {
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+#portfolio-intro {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+div .portfolio-content {
+  padding: 100px;
+  margin: 20px;
+}
+div.portfolio-wrapper {
+  background-color: #fef6f6;
+}
+
+/*contact page css*/
+#contact-head {
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+#contact-intro {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+div .contact-content {
+  padding: 100px;
+  margin: 20px;
+}
+div.contact-wrapper {
+  background-color: #fef6f6;
+}
