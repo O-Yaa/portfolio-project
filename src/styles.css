@@ -19,6 +19,20 @@ html {
 
   background-color: #fef6f6;
 }
+footer {
+  text-align: center;
+}
+small {
+  font-size: 12px;
+}
+#open-source {
+  text-decoration: none;
+  color: rgba(36, 44, 44, 0.8);
+  letter-spacing: 0.9px;
+}
+#open-source:hover {
+  color: #a58bb0;
+}
 
 .container-fluid {
   background-color: #fcf7f7;
@@ -239,15 +253,6 @@ div.about-wrapper {
   margin-top: 58px;
 }
 
-@media (max-width: 576px) {
-  img {
-    display: none;
-  }
-  body {
-    font-size: 12px;
-  }
-}
-
 #weather-btn:hover {
   opacity: 0.8;
   transform: scale(1.05);
@@ -306,4 +311,27 @@ div .contact-content {
 }
 div.contact-wrapper {
   background-color: #fef6f6;
+}
+
+.email,
+.instagram,
+.linkedin {
+  text-decoration: none;
+  color: #9f72b3;
+  background-color: #fffefe;
+}
+
+.email:hover,
+.instagram:hover,
+.linkedin:hover {
+  color: #663f77;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  body {
+    font-size: 12px;
+  }
 }
