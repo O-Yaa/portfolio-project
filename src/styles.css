@@ -12,14 +12,13 @@ html {
   box-sizing: border-box;
   background-color: white;
 }
-/*
-header {
+
+#header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+
   background-color: #fef6f6;
-}*/
+}
 
 .container-fluid {
   background-color: #fcf7f7;
@@ -182,7 +181,8 @@ div.about-wrapper {
 #inquiry-section {
   justify-content: space-evenly;
   background-color: #fcf3fc;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 20px;
 }
 #work-inquiry {
@@ -230,4 +230,36 @@ div.about-wrapper {
 }
 #email:hover {
   opacity: 0.8;
+}
+
+/* image fluid css*/
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+  margin-top: 58px;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+
+#weather-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
+}
+#croissant-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
+}
+#tea-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px #21092b;
 }

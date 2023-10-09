@@ -22,42 +22,161 @@
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarNav"
-          style="justify-content: flex-end"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
+            style="justify-content: flex-end"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="homepage-wrapper">
+      <h3 id="homepage-hey">Hey there! I am</h3>
+      <h1 id="homepage-head">Esther Acquaye</h1>
+      <h4 id="homepage-location">Front-end Developer, based in Europe 📍</h4>
+      <a href="#" class="button">
+        <button id="homepage-btn">Get Started</button>
+      </a>
+    </div>
+
+    <div class="homepage-page">
+      <div class="icons">
+        <span>
+          <a
+            href="https://www.linkedin.com/in/esther-acquaye-25b9b61a0/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin" style="color: #090b0e"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-instagram" style="color: #151b21"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-github" style="color: #13181c"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <div class="row pt-5">
+      <div class="col-md-6 d-flex justify-content-center">
+        <img
+          src="/media/basics-project.PNG"
+          title="Boba Tea"
+          class="img-fluid rounded"
+          alt="basics-project-image"
+        />
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-3 mt-5">Bubble Tea</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
+          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
+          voluptatum blanditiis harum.
+        </p>
+        <div class="mt-5 d-flex justify-content-center">
+          <a
+            href="#"
+            class="btn btn-dark text-light text-center shadow"
+            id="tea-btn"
+            >Get your Tea</a
+          >
         </div>
       </div>
-    </nav>
+      <div class="col-md-6">
+        <h2 class="mb-3 mt-5">Weather 🌦</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
+          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
+          voluptatum blanditiis harum.
+        </p>
+        <div class="mt-5 d-flex justify-content-center">
+          <a
+            href="#"
+            class="btn btn-dark text-light text-center shadow"
+            id="weather-btn"
+            >Launch Weather App</a
+          >
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center">
+        <img
+          src="/media/weather-project.PNG"
+          title="Weather App"
+          class="img-fluid rounded"
+          alt="basics-project-image"
+        />
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center">
+        <img
+          src="/media/croissant.png"
+          title="Croissant"
+          class="img-fluid rounded"
+          alt="basics-project-image"
+        />
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-3 mt-5">Croissant 🥐</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
+          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
+          voluptatum blanditiis harum.
+        </p>
+        <div class="mt-5 d-flex justify-content-center">
+          <a
+            href="#"
+            class="btn btn-dark text-light text-center shadow"
+            id="croissant-btn"
+            >Get your Croissant</a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
